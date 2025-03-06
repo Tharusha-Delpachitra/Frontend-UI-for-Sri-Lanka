@@ -10,9 +10,9 @@ const FiterBox = () => {
         <p className="text-md text-gray-800">Destination</p>
         <div>
           <div className="flex flex-row items-center gap-4 bg-white p-2 rounded-lg text-gray-500 w-44">
-            <div>
+            <span>
               <FaLocationDot size={16} />
-            </div>
+            </span>
             <input
               type="text"
               placeholder="Location"
@@ -26,9 +26,9 @@ const FiterBox = () => {
         <p className="text-md text-gray-800">Check-in</p>
         <div>
           <div className="flex flex-row items-center gap-4 bg-white p-2 rounded-lg text-gray-500  w-44">
-          <div>
+          <span>
               <FaRegCalendarAlt size={16} />
-            </div>
+            </span>
             <input
               type="text"
               placeholder="Add date"
@@ -42,9 +42,9 @@ const FiterBox = () => {
         <p className="text-md text-gray-800">Check-out</p>
         <div>
           <div className="flex flex-row items-center gap-4 bg-white p-2 rounded-lg text-gray-500  w-44">
-            <div>
+            <span>
               <FaRegCalendarAlt size={16} />
-            </div>
+            </span>
             <input
               type="text"
               placeholder="Add date"
@@ -54,14 +54,14 @@ const FiterBox = () => {
          
         </div> 
       </div>
-      <button className='bg-blue-800 px-8 xl:px-12 h-12 my-auto text-white rounded-xl flex flex-row gap-2 items-center'>
+      <div className='bg-blue-800 px-8 xl:px-12 h-12 my-auto text-white rounded-xl flex flex-row gap-2 items-center'>
         <span className="text-lg xl:text-xl">
           <IoSearch/> 
         </span>
         <span className="text-lg xl:text-xl">
           Search
         </span>
-      </button>
+      </div>
     </section>
   );
 };

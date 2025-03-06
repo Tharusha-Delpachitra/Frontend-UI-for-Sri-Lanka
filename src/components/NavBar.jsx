@@ -14,9 +14,9 @@ const NavBar = () => {
         <Link href="#">Blog</Link>
         <Link href="#">Contact</Link>
       </div>
-      <button className="hidden lg:block bg-blue-700 p-1 px-6 text-white rounded-xl text-md xl:text-lg">
+      <div className="hidden lg:block bg-blue-700 p-1 px-6 text-white rounded-xl text-md xl:text-lg">
         Book Now
-      </button>
+      </div>
       <div className="block lg:hidden text-2xl">
         <GiHamburgerMenu />
       </div>
